@@ -1,0 +1,692 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #484848;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+footer {
+    background-color: #2F736C;
+    float: left;
+    width: 100%;
+    height: 5%;
+    color: #bdf2db;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+    height: 20px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+
+/*MENU*/
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.topnav {
+    background-color: #0F2622;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 100;
+  }
+  
+.active {
+    background-color: #2E9AA6;
+    color: white;
+  }
+.topnav .icon {
+    display: none;
+  }
+  
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #7bd9cf;
+    color: white;
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/*fim do menu*/
+
+
+#acao:hover {
+    color: #Bdf2db;
+    border-radius: 5px; 
+    border: 2px #bdf2db solid;
+    background-color: #2F736C;
+    margin-top: 1%;
+    margin: auto;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#acao {
+    color: #2F736C;
+    border-radius: 5px; 
+    border: 2px #2F736C solid;
+    background-color: #bdf2db;
+    margin-top: 1%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#capa {
+    background: url("img/fundo_dna.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2,5%;
+}
+#logo {
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    margin-left: 95%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+#menucor:hover {
+    background-color: #79d9cf;
+}
+#ods3 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+#perfil {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+#redesocial {
+    list-style: none;
+    
+}
+#subtitulo {
+    color: #0F2622;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    padding-top: 2%;
+}
+#subtitulo2 {
+    color: 0F2622;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#titulo {
+    color: #0F2622;
+    padding-top: 15%;
+    font-size: 400%;
+    line-height: 120%;
+}
+#video {
+    width: 100%;
+    height: 315;
+    padding-top: 10%;
+}
+#slidemetas {
+    padding: 0%;
+}
+#rodapemetas {
+    text-align: end;
+    font-style: italic;
+    color: #E4FFF8;
+    padding-right: 1%;
+    opacity: 0,4s;
+    font-size: small;
+  }
+#simbolo{
+      width: 100%;
+  }
+#selecao{
+      height: 100%;
+  }
+#comomelhora{
+    padding-bottom: 5%;
+}
+#marginbottom8{
+    margin-bottom: 8%;
+}
+#simboloecor{
+  margin-top: 0%;
+}
+
+.margemzero{
+  margin: 0px;
+}   
+.borda10 {
+    padding-right:10%;
+    padding-left: 10%;
+}
+.bottom1 {
+    padding-bottom: 1%;
+}
+.bottom3 {
+    padding-bottom: 3%;
+}
+.bottom{
+    padding-bottom: 5%;
+}
+.centralizado {
+    text-align: center;
+}
+.justificado {
+    text-align: justify;
+}
+.direita{
+    text-align: right;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.destaque {
+    background-color: #f7f7f7;
+    height: 100%;
+}
+.destaqueods {
+  background-color: #f7f7f7;
+  height: 100%;
+}
+.capaosite{
+    background: url(img/capamaisbranca.jpg);
+    height: 77%;
+    background-attachment: fixed;
+}
+
+.capasaude {
+    background: url("img/capabranca.jpg");
+    height: 87%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2,5%;
+}
+.destaqueagradece {
+    background-color: #f7f7f7;
+    height: 55%;
+}
+.destaqueagradece2 {
+    background-color: #f7f7f7;
+    height: 20%;
+    text-align: center;
+    text-align: center;
+    font-style: italic;
+    color: #0F2622;
+
+}
+.dois {
+    width: 40%;
+}
+.doistercos {
+    width: 27%;
+    padding: 0 3%;
+}
+.umterco {
+    width: 60%;
+    padding: 0 3%;
+}
+.end {
+    text-align: end;
+}
+.fontepqn {
+    font-size: x-small;
+}
+.fontegrande {
+    font-size: 15px;
+}
+.icone {
+    width: 51px;
+}
+.icone:hover {
+    border-radius: 50%;
+    outline: none;
+    border: 2px #0F2622 solid;
+    padding: 1%;
+    background-color: #f7f7f7;
+}
+.imgeco {
+    width: 100%;
+    height: 35%;
+    border-radius: 50%;
+}
+.italico {
+    font-style: italic;
+}
+.metas {
+    color: #0F2622;
+    font-weight: lighter;
+    font-style: italic;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro {
+    width: 10%;
+    padding-right: 2%;
+    padding-left: 5%;
+}
+.quatrosaude{
+    width: 15%;
+}
+
+.doissextos{
+    width: 30%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.top2 {
+    padding-top: 2%;
+}
+.top5 {
+    padding-top: 5%;
+}
+.top10 {
+    padding-top: 10%;
+}
+
+.marginzero{
+    margin: 0%;
+}
+
+.tamanho250{
+  width: 250%;
+}
+
+.tamanho300{
+  width: 300%;
+}
+
+.tamanho350{
+  width:350%;
+}
+
+
+
+
+/*parte do slide*/
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0%;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .slide.current {
+    opacity: 1;
+  }
+  
+  .slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: -600px;
+    opacity: 0;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0F2622;
+    padding: 35px;
+  }
+  
+  .slide .content h1 {
+    margin-bottom: 10px;
+  }
+  
+  .slide.current .content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+  }
+  
+  .buttons button#next {
+    position: absolute;
+    top: 240%;
+    right: 15px;
+  }
+  
+  .buttons button#prev {
+    position: absolute;
+    top: 240%;
+    left: 15px;
+  }
+  
+  .buttons button {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .buttons button:hover {
+    background-color: #fff;
+    color: #0F2622;
+    border: 2px solid #0F2622;
+  }
+   
+  .slide:first-child {
+    background: url('imgmetas/meta31.jpg')no-repeat
+    center top/cover;
+  }
+  .slide:nth-child(2) {
+    background: url('imgmetas/meta32.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(3) {
+    background: url('imgmetas/meta33.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(4) {
+    background: url('imgmetas/meta34.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(5) {
+    background: url('imgmetas/meta35.jpg') no-repeat
+      center top/cover;
+  } 
+  .slide:nth-child(6)  {
+    background: url('imgmetas/meta36.jpg') no-repeat
+      center center/cover;
+  }
+  .slide:nth-child(7)  {
+    background: url('imgmetas/meta37.jpg') no-repeat
+      center center/cover;
+  }
+  .slide:nth-child(8) {
+    background: url('imgmetas/meta38.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(9) {
+    background: url('imgmetas/meta39.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(10) {
+    background: url('imgmetas/meta3a.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(11) {
+    background: url('imgmetas/meta3b.jpg') no-repeat
+      center top/cover;
+  } 
+  .slide:nth-child(12)  {
+    background: url('imgmetas/meta3c.jpg') no-repeat
+      center center/cover;
+  }
+  .slide:nth-child(13)  {
+    background: url('imgmetas/meta3d.jpg') no-repeat
+      center center/cover;
+  }
+
+ 
+[lj-type="stage"] {
+    margin: auto;
+}
+
+
+/** PARTE DA RESPONSIVIDADE **/
+
+@media all and (max-width: 768px){
+
+.fixed{
+  position: fixed;
+}
+
+ #menupgtres{
+  width: 43.7%;
+  z-index: 10;
+ }
+
+ /**.logoresponsiva{
+   margin-top: 80px;
+ }**/
+
+ .topnav1{
+   margin-top: -4%;
+ }
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+        padding-right: 7%;
+      }
+    
+    #titulo {
+        margin: 4%;
+        font-size: 350%;
+        padding-top: 20%;
+
+    }
+
+    #subtitulo{
+        padding-top: 4%;
+        margin: 0%;
+        font-size: 125%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #subtitulo2 {
+        margin: 0%;
+        font-size: 80%;
+        padding-top: 3%;
+        padding-bottom: 15%;
+    }
+
+.titulosaude{
+  padding-top: 10%;
+}
+
+    .destaqueods{
+      height: 800%;
+    }
+
+    .destaqueagradece{
+      height: 120%;
+    }
+
+    #sessaoods{
+      height: 110%;
+    }
+
+    #melhorasaude{
+      height: 160%;
+    }
+
+    .coluna, .dois, .umterco, .doistercos, .tres, .quatro, .quatrosaude {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+
+    .end{
+        text-align: center;
+    }
+
+    #logodiv{
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;   
+    }
+
+.capasaude{
+    height: 210%;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 2,5%;
+    background-repeat: no-repeat;
+}
+
+    .capaosite{
+      height: 140%;
+      text-align: center;
+      background-attachment: fixed;
+      padding: 2,5%;
+      background-repeat: no-repeat;
+    }
+
+    #capa{
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  #simbolo{
+    width: 50%;
+    padding-top: 6%;
+  }
+
+  .redesocial{
+      padding: 0%;
+  }
+
+  .slide .content {
+      bottom: -300px;
+      left: 0;
+      width: 100%;
+      height: 75%;
+  }
+    
+    .slide.current .content {
+      transform: translateY(-300px);
+      width: 80%;
+    }
+  
+  #redesocial{
+    visibility: hidden;
+  }
+
+  footer {
+    height: 8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    /*NOVO*/
+    #logo{
+      margin-left: -3%;
+    }
+
+    .buttons button#next{
+      margin-top: 170%;
+    }
+
+    .buttons button#prev{
+      margin-top: 170%;
+    }
+    /*NOVO*/
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 13%;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .espacobaixo{
+      padding-bottom: 120%;
+    }   
+
+  }
